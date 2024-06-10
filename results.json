@@ -2,20 +2,6 @@
   "excluded": [],
   "failed": [
     {
-      "describe": "call/1",
-      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/bookings/create_or_update_test.exs",
-      "line": 13,
-      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
-      "test": "test call/1 when all params are valid, returns a valid tuple"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/bookings/booking_agent_test.exs",
-      "line": 53,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user wasn't found, returns an error"
-    },
-    {
       "describe": "save/1",
       "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/bookings/booking_agent_test.exs",
       "line": 15,
@@ -31,24 +17,17 @@
     },
     {
       "describe": "get/1",
-      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
-      "line": 55,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is't founded, returns an error"
+      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/bookings/booking_agent_test.exs",
+      "line": 53,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user wasn't found, returns an error"
     },
     {
-      "describe": "save/1",
-      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
-      "line": 18,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test save/1 when the user is saves, returns an tuple"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
-      "line": 42,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
+      "describe": "call/1",
+      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/bookings/create_or_update_test.exs",
+      "line": 13,
+      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
+      "test": "test call/1 when all params are valid, returns a valid tuple"
     },
     {
       "describe": "call/1",
@@ -87,6 +66,27 @@
       "line": 22,
       "module": "Elixir.Flightex.Users.UserTest",
       "test": "test build/4 when cpf is a integer"
+    },
+    {
+      "describe": "save/1",
+      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
+      "line": 18,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test save/1 when the user is saves, returns an tuple"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
+      "line": 42,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/andre/Code/ignite/elixir/desafios/ignite-elixir-flight-reservation/test/users/user_agent_test.exs",
+      "line": 55,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
     }
   ],
   "skiped": []
