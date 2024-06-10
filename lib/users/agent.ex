@@ -11,7 +11,7 @@ defmodule Flightex.Users.Agent do
 
   def get(cpf), do: Agent.get(__MODULE__, &get_user(&1, cpf))
 
-  defp update_state(state, %User{ cpf: cpf}=user) do
+  defp update_state(state, %User{cpf: cpf} = user) do
     Map.put(state, cpf, user)
   end
 
@@ -21,5 +21,4 @@ defmodule Flightex.Users.Agent do
       user -> {:ok, user}
     end
   end
-
 end
